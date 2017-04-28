@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Eduardo Sganzerla - Curriculum Vitae Lime Edition</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicons/manifest.json">
+  <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#00ff00">
+  <meta name="apple-mobile-web-app-title" content="ES CV - Lime Edition">
+  <meta name="application-name" content="ES CV - Lime Edition">
+  <meta name="theme-color" content="#36cd36">
+
+  <style>
+    html {
+      min-height: 100%;
+      background-color: #00ff00;
+      background-color: lime;
+    }
+    body {
+          background-color: #00ff00;
+          background-color: lime;
+          background: -webkit-linear-gradient(top left, #00ff00, #44ff44);
+          background: -moz-linear-gradient(top left, #00ff00, #44ff44);
+          background: -o-linear-gradient(top left, #00ff00, #44ff44);
+          background: linear-gradient(to bottom right, #00ff00, #44ff44);
+          background-attachment: fixed;
+          color: #0b3d8f;
+          min-height: 100%;
+          font-size: 15px;
+          line-height: 1.6em;
+        }
+    a {
+      color: #0b3d8f;
+      text-decoration: none;
+      border-bottom: 1px solid #0b3d8f;
+    }
+
+    .loading-message {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      height: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <app-root class="app-root">
+    <div class="loading-message">
+      Loading...
+    </div>
+  </app-root>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+  </script>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>

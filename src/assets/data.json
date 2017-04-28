@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "topics": [
+      "25 years old",
+      "Lives in Novo Hamburgo, RS, Brazil"
+    ],
+    "personalDescription": "<p><b>Self-taught kid</b>. As many programmers, I started learning <b>HTML</b>, then <b>CSS</b>, <b>JavaScript</b> and <b>PHP</b> by myself as a kid, about 9 years old. </p><p> I have made a few freelancing jobs at this time, but after high-school, I somehow go to study <b>business administration</b>. That's actually my <b>bachelor degree</b>, something I still like, not as much as programming though. </p><p> I have been in an <b>exchange to Ireland for a year</b>, and one of the things <b>I miss the most is communicating in English</b>. </p><p> I also can communicate in <b>Portuguese</b> <small>(of course, it is my mother tongue)</small>, <b>Spanish</b> and a very little <b>Danish</b>.</p><p> I guess at this point you probably have already noticed that <b>I'm very interested in programming</b>. So I would like to point out my profile as a developer. </p>",
+    "developerDescription": "<p> As a developer I am on of those guys that might still lack a bit of knowledge, but <b>I like to study a lot</b>, and I am sure I will catch on to any need. </p><p> Furthermore, I am <b>very concerned about the quality of the code</b>, to me, the most important parts of coding is to keep a <b>clean code</b> and with a <b>consistent style guide</b>. I believe this way I can see my improvement and won't lose much time searching pieces of the code or trying to figure out what happened there. </p>"
+  },
+
+  "experiences": [
+    {
+      "jobTitle": "Web/Mobile Developer Freelancer",
+      "dateStart": "September 2016",
+      "dateEnd": "Present",
+      "description": "<p> I make mobile apps using <b>React Native</b>; And Full-stack Web Development using UI libraries like <b>Vue.js</b> and <b>React.js</b>, many times <b>jQuery</b> or just <b>VanillaJS</b> based on the project; On the back-end side I have done some testings with <b>Node.js</b>, but I have used only <b>PHP</b> in production so far.</p>"
+    },
+    {
+      "jobTitle": "Front-end Developer",
+      "companyTitle": "SPRINTA",
+      "companyURL": "https://www.sprinta.com.br/",
+      "dateStart": "July 2015",
+      "dateEnd": "December 2016",
+      "description": "<p> I was working most of the time working on the <b>front-end</b> of this platform, although I did a few changes on the <b>back-end</b> also. </p><p> In this company, I wrote a lot of code in <b>VanillaJS</b> and also <b>jQuery</b>. We used there an MVC approach with <b>(PHP) CodeIgniter framework</b>. </p><p> Here is also where I learned a lot of things like <b>Git, Gulp, Web Services, SCSS, React, React Native, CSS methodologies, JavaScripts Standards</b>.</p>"
+    },
+    {
+      "jobTitle": "Some experience on Marketing",
+      "dateStart": "January 2011",
+      "dateEnd": "July 2015"
+    },
+    {
+      "jobTitle": "General Staff",
+      "companyTitle": "Domino's Pizza Co. - Ireland",
+      "companyURL": "https://www.dominos.ie",
+      "dateStart": "December 2009",
+      "dateEnd": "September 2010",
+      "description": "<p>Not very relevant, except that it proves <b>I can communicate at work in English</b>.</p>"
+    },
+    {
+      "jobTitle": "Web Development Student/Freelancer",
+      "dateStart": "aproximatelly from 2000",
+      "dateEnd": "2008",
+      "description": "<p>Unfurtunetally I don't have a record of this time, I'm pretty sure was about it.<br>I found a record of <b><a href=\"http://www.wlgdistribuidora.com.br\" target=\"_blank\">this website</a> from 2007</b>, I still think it was a pretty decent code for that time. </p>"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<dl>
+  <dt>
+    <h2>Profile</h2>
+  </dt>
+
+    <dd>
+      <ul>
+        <li *ngFor="let topic of (profile | async).topics">{{ topic }}</li>
+      </ul>
+    </dd>
+
+  <dt>
+    <h3>Profile description</h3>
+  </dt>
+    <dd [innerHTML]="(profile | async).personalDescription"></dd>
+
+  <dt>
+    <h3>Profile as a Developer</h3>
+  </dt>
+    <dd [innerHTML]="(profile | async).developerDescription"></dd>
+
+  <dt>
+    <h3>
+      Profile on Social Networks
+      <small>(esganzerla - in all of them)</small>
+    </h3>
+  </dt>
+    <dd>
+      <p>
+        <a href="https://github.com/esganzerla" target="_blank">GitHub</a>
+        <span class="spacer"></span>
+        <a href="https://linkedin.com/in/esganzerla" target="_blank">LinkedIn</a>
+        <span class="spacer"></span>
+        <a href="https://twitter.com/esganzerla" target="_blank">Twitter</a>
+        <span class="spacer"></span>
+        <a href="https://facebook.com/esganzerla" target="_blank">Facebook</a>
+      </p>
+      <p>
+        <small>If there is any other you are interested, I might be there as <b>esganzerla</b> as well.</small>
+      </p>
+    </dd>
+</dl>

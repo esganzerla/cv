@@ -1,0 +1,15 @@
+<loading *ngIf="isLoading | async"></loading>
+
+<div class="container" *ngIf="!(isLoading | async)">
+  <h1>
+    Eduardo Sganzerla<br>
+    <small>(curriulum vitae - lime edition)</small>
+  </h1>
+
+  <hr>
+
+  <div class="row">
+    <profile class="collumn" [profile]="profile"></profile>
+    <experiences class="collumn" [experiences]="experiences"></experiences>
+  </div>
+</div>

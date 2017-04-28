@@ -1,0 +1,270 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+body {
+    margin: 0
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+[hidden],
+template {
+    display: none !important
+}
+a,
+button,
+.select-ultra-minimal {
+    background-color: transparent
+}
+a:active,
+button:active,
+.select-ultra-minimal:active,
+a:hover,
+button:hover,
+.select-ultra-minimal:hover {
+    outline: 0
+}
+abbr[title] {
+    border-bottom: 1px dotted
+}
+b,
+strong {
+    font-weight: bold
+}
+dfn {
+    font-style: italic
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0
+}
+mark {
+    background: #ff0;
+    color: #000
+}
+small {
+    font-size: 80%
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+sup {
+    top: -0.5em
+}
+sub {
+    bottom: -0.25em
+}
+img {
+    border: 0
+}
+svg:not(:root) {
+    overflow: hidden
+}
+figure {
+    margin: 1em 40px
+}
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+pre {
+    overflow: auto
+}
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+button,
+.select-ultra-minimal,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+button,
+.select-ultra-minimal {
+    overflow: visible
+}
+button,
+.select-ultra-minimal,
+select {
+    text-transform: none
+}
+button,
+.select-ultra-minimal,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+button[disabled],
+[disabled].select-ultra-minimal,
+html input[disabled] {
+    cursor: default
+}
+button::-moz-focus-inner,
+.select-ultra-minimal::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+input {
+    line-height: normal
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em
+}
+legend {
+    border: 0;
+    padding: 0
+}
+textarea {
+    overflow: auto
+}
+optgroup {
+    font-weight: bold
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+td,
+th {
+    padding: 0
+}
+html {
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: "Roboto", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    box-sizing: border-box;
+    height: 100%
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+/*! Custom */
+.container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.collumn {
+  float: left;
+  width: 50%;
+  opacity: 0.75;
+  padding: 20px 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.collumn:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+}
+.row > .collumn:nth-child(odd) { padding-right: 5%; }
+.row > .collumn:nth-child(even) { padding-left: 5%; }
+.row:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+h3, b {
+  font-weight: 900;
+  text-shadow: 0px 0px 0px #0b3d8f;
+}
+small {
+  font-weight: 300;
+  font-size: 0.7em;
+}
+p { margin-top: 5px; }
+
+dd { margin-left: 20px; }
+
+hr {
+  border: 0;
+  border-bottom: 1px solid white;
+  padding-top: 30px;
+  opacity: 0.6;
+}
+.spacer { margin: 0 15px; }
+
+@media (max-width: 960px) {
+  .container { padding: 5% 5% 5%; }
+
+  .collumn {
+    width: 98%;
+    padding: 20px 0 !important;
+    opacity: 1;
+    border-bottom: 1px solid white;
+  }
+
+  h1 { padding-top: 30px; }
+}

@@ -1,0 +1,21 @@
+<dt>
+  <h3>
+    {{ experience.jobTitle }}
+    {{ !!experience.companyTitle ? 'at' : '' }}
+    <a
+      [href]="experience.companyURL"
+      *ngIf="!!experience.companyTitle"
+      target="_blank"
+    >
+      {{ experience.companyTitle }}
+    </a>
+    <small>
+      ({{ experience.dateStart }} to {{ experience.dateEnd }})
+    </small>
+  </h3>
+</dt>
+
+  <dd
+    [innerHTML]="experience.description"
+    *ngIf="!!experience.description"
+  ></dd>
